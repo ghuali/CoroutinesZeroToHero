@@ -41,13 +41,13 @@ android {
 
 dependencies {
 
-    implementation ("androidx.activity:activity-ktx:1.7.1")
-    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1")
+    implementation (libs.androidx.activity.ktx)
+    implementation (libs.androidx.lifecycle.viewmodel.ktx)
 
 
     //Retrofit
-    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
-    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation (libs.retrofit)
+    implementation (libs.converter.gson)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
